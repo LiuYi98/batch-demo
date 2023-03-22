@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS writer;
+
+CREATE TABLE writer
+(
+    id  BIGINT NOT NULL PRIMARY KEY,
+    name VARCHAR(20),
+    value  VARCHAR(20)
+);

@@ -1,0 +1,15 @@
+spring:
+    datasource:
+        password: 123456
+        url: jdbc:postgresql://localhost:5432/test
+        username: liuyi
+    jpa:
+        hibernate:
+            ddl-auto: create
+        database: postgresql
+    sql:
+        init:
+            mode: always
+    batch:
+        jdbc:
+            initialize-schema: always
